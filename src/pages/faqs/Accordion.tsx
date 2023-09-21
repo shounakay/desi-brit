@@ -16,7 +16,7 @@ export const Accordion = ({ question, answer, tabIndex }: any) => {
         <div className="">
           {isExpanded ? (
             <img
-              src="src/assets/angle-small-up-rust.png"
+              src="./assets/angle-small-up-rust.png"
               alt="bottom-arrow"
               className="text-rust-800"
             />

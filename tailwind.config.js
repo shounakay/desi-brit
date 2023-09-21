@@ -365,10 +365,10 @@ export default {
         daydream: "'Daydream', serif",
       },
       backgroundImage: {
-        celebration: "url('src/assets/congratulations-7600_512.gif')",
+        celebration: "url('./assets/congratulations-7600_512.gif')",
         anu: "url('./assets/Centregif.gif')",
-        ourStory: "url('src/assets/IMG_20190924_113403.jpg')",
-        rsvp: "url('src/assets/PXL_20210527_101300826.jpg')",
+        ourStory: "url('./assets/IMG_20190924_113403.jpg')",
+        rsvp: "url('./assets/PXL_20210527_101300826.jpg')",
       },
     },
   },
