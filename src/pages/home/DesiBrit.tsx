@@ -170,7 +170,11 @@ export const DesiBrit = () => {
         </section>
         <footer className="flex justify-between items-center px-4 lg:px-0 bg-neutral-800 h-auto w-full py-6 text-stone-300">
           <div className="justify-start basis-1/2 pl-8 grow hidden lg:block">
-            <img src="assets/logo-black.png" alt="dark-log" className="w-80" />
+            <img
+              src="url('assets/logo-black.png')"
+              alt="dark-log"
+              className="w-80"
+            />
           </div>
           <div className="flex justify-start lg:justify-end grow">
             <div className="flex flex-col gap-2 py-4">
@@ -202,12 +206,12 @@ export const DesiBrit = () => {
           <img
             onClick={() => setIsNavClicked(false)}
             className="h-12"
-            src="src/assets/cross.png"
+            src="url('./assets/cross.png')"
             alt="cross"
           />
         </div>
         <div className="flex mt-11 flex-col gap-10 text-3xl justify-center items-center">
-          <img src="src/assets/desi-brit-logo.jpeg" className="w-2/3" />
+          <img src="url('src/assets/desi-brit-logo.jpeg')" className="w-2/3" />
           <NavLink
             to="/"
             className={({ isActive }) =>
