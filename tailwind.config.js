@@ -365,7 +365,6 @@ export default {
         daydream: "'Daydream', serif",
       },
       backgroundImage: {
-        celebration: "url('./assets/congratulations-7600_512.gif')",
         anu: "url('./assets/Centregif.gif')",
         ourStory: "url('./assets/IMG_20190924_113403.jpg')",
         rsvp: "url('./assets/PXL_20210527_101300826.jpg')",
