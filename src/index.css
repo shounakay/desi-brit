@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* body {
+  margin: 0;
+  box-sizing: border-box;
+} */
+/* 
+
+.left-44 {
+  left: 44rem;
+} */
+
+@layer components {
+  .map-container {
+    height: 400px;
+    width: 600px;
+  }
+  .inputt {
+    width: 500px !important;
+  }
+}
+
+@font-face {
+  font-family: "ADELIA";
+  src: url("../public/fonts/ADELIA.otf");
+}
+@font-face {
+  font-family: "Adlery Swash Trial";
+  src: url("../public/fonts/Adlery-Swash-trial.ttf");
+}
+@font-face {
+  font-family: "BrightWall";
+  src: url("../public/fonts/BrightwallDafont.otf");
+}
+@font-face {
+  font-family: "Daydream";
+  src: url("../public/fonts/daydream-dafont.ttf");
+}
+@font-face {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
