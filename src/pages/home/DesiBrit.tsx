@@ -24,6 +24,7 @@ export const DesiBrit = () => {
                   className="w-14 h-auto"
                   onClick={() => setIsNavClicked(true)}
                   src="src/assets/menu-burger-white.png"
+                  loading="lazy"
                 />
               </div>
               <div className="xl:flex xl:basis-[40%] 2xl:basis-[50%] xl:pr-16 2xl:pr-0 shrink justify-around items-center font-semibold 2xl:text-xl xl:text-base hidden">
@@ -83,6 +84,7 @@ export const DesiBrit = () => {
                 src="src/assets/desi-brit-new.png"
                 alt="desi-brit-logo"
                 className="w-[80%] lg:w-[56%] h-48"
+                loading="lazy"
               />
             </div>
           </article>
@@ -100,6 +102,7 @@ export const DesiBrit = () => {
               <img
                 src="src/assets/beaconside.jpeg"
                 alt="beaconside-house"
+                loading="lazy"
                 className="md:w-[500px] self-center lg:self-end w-[500px] h-96"
               />
             </div>
@@ -172,9 +175,10 @@ export const DesiBrit = () => {
         <footer className="flex justify-between items-center px-4 lg:px-0 bg-neutral-800 h-auto w-full py-6 text-stone-300">
           <div className="justify-start basis-1/2 pl-8 grow hidden lg:block">
             <img
-              src="//www.thedesibritwedding.com/src/assets/logo-black.png"
+              src="assets/logo-black.png"
               alt="dark-log"
               className="w-80"
+              loading="lazy"
             />
           </div>
           <div className="flex justify-start lg:justify-end grow">
@@ -209,10 +213,15 @@ export const DesiBrit = () => {
             className="h-12"
             src="src/assets/cross.png"
             alt="cross"
+            loading="lazy"
           />
         </div>
         <div className="flex mt-11 flex-col gap-10 text-3xl justify-center items-center">
-          <img src="src/assets/desi-brit-logo.jpeg" className="w-2/3" />
+          <img
+            src="src/assets/desi-brit-logo.jpeg"
+            className="w-2/3"
+            loading="lazy"
+          />
           <NavLink
             to="/"
             className={({ isActive }) =>
