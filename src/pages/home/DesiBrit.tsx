@@ -171,7 +171,7 @@ export const DesiBrit = () => {
         <footer className="flex justify-between items-center px-4 lg:px-0 bg-neutral-800 h-auto w-full py-6 text-stone-300">
           <div className="justify-start basis-1/2 pl-8 grow hidden lg:block">
             <img
-              src="src/assets/logo-black.png"
+              src="../../assets/logo-black.png"
               alt="dark-log"
               className="w-80"
             />
