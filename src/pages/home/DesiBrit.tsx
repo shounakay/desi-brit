@@ -19,14 +19,14 @@ export const DesiBrit = () => {
         <header className="flex flex-col h-[900px] backdrop-brightness-200 bg-anu bg-cover bg-center scale-100 shadow-xl">
           <nav className="basis-16 transition-all delay-150 duration-500 ease-linear">
             <ul className="flex flex-row px-4 text-white">
-              <div className="self-center lg:hidden cursor-pointer">
+              <div className="self-center xl:hidden cursor-pointer">
                 <img
                   className="w-14 h-auto"
                   onClick={() => setIsNavClicked(true)}
                   src="src/assets/menu-burger-white.png"
                 />
               </div>
-              <div className="lg:flex basis-[25%] lg:basis-[30%] shrink justify-around items-center font-semibold text-xl hidden">
+              <div className="xl:flex xl:basis-[40%] 2xl:basis-[50%] xl:pr-16 2xl:pr-0 shrink justify-around items-center font-semibold 2xl:text-xl xl:text-base hidden">
                 <li className="hover:text-orange-700">
                   <NavLink
                     to="/"
@@ -44,14 +44,14 @@ export const DesiBrit = () => {
                   <NavLink to="/faqs">FAQs</NavLink>
                 </li>
               </div>
-              <div className="basis-[55%] lg:basis-[20%] h-24 flex justify-center md:pl-0 lg:pr-12 pl-0 ml-20 md:ml-60 md:mr-96 items-end text-white font-adlery text-center text-[40px] animate-dropDownName self-center">
+              <div className="basis-[55%] 2xl:basis-[40%] h-24 flex xl:justify-start 2xl:justify-center sm:ml-36 md:ml-64 lg:ml-[360px] xl:ml-16 2xl:pl-0 2xl:pr-12 pl-0 ml-32 2xl:ml-20 2xl:mr-96 items-end text-white font-adlery text-center text-[40px] animate-dropDownName self-center">
                 <div className="-rotate-12 text-tango-600">Nupoor</div>
                 <div className="-rotate-12 text-tango-600">& Andrew</div>
               </div>
-              <div className="lg:flex basis-[15%] shrink justify-end mr-8 items-center font-3xl hidden">
+              <div className="xl:flex basis-[15%] shrink justify-end mr-8 items-center hidden">
                 <li className="hover:text-amber-500">
                   <Link to="/rsvp">
-                    <button className="border-2 font-semibold border-stone-800 rounded-sm py-3 px-8 bg-tango-500 hover:bg-tango-400 text-white">
+                    <button className="border-2 2xl:font-semibold xl:font-medium border-stone-800 rounded-sm xl:py-2 2xl:py-3 px-8 bg-tango-500 hover:bg-tango-400 text-white">
                       R S V P
                     </button>
                   </Link>
@@ -75,10 +75,10 @@ export const DesiBrit = () => {
         </header>
         <section className="flex flex-col gap-5 w-full h-auto py-12 px-8 bg-tango-300">
           <article className="flex flex-row w-full flex-wrap">
-            <h6 className="text-[80px]  font-bold basis-1/2 grow shrink-0 lg:px-20 font-caudex">
+            <h6 className="text-[80px] text-centerfont-bold basis-1/2 grow shrink-0 xl:px-72 2xl:px-20 lg:px-20 font-caudex">
               IT IS HAPPENING!!
             </h6>
-            <div className="basis-1/2 grow flex justify-center lg:justify-end shrink-0 pr-8">
+            <div className="basis-1/2 grow flex justify-center 2xl:justify-end shrink-0 pr-8">
               <img
                 src="src/assets/desi-brit-new.png"
                 alt="desi-brit-logo"
@@ -133,6 +133,7 @@ export const DesiBrit = () => {
                 src="src/assets/timelin-fn.png"
                 alt="timeline-full"
                 className="self-start"
+                loading="lazy"
               />
             </div>
           </article>
@@ -171,7 +172,7 @@ export const DesiBrit = () => {
         <footer className="flex justify-between items-center px-4 lg:px-0 bg-neutral-800 h-auto w-full py-6 text-stone-300">
           <div className="justify-start basis-1/2 pl-8 grow hidden lg:block">
             <img
-              src="url('assets/logo-black.png')"
+              src="src/assets/logo-black.png"
               alt="dark-log"
               className="w-80"
             />
@@ -206,12 +207,12 @@ export const DesiBrit = () => {
           <img
             onClick={() => setIsNavClicked(false)}
             className="h-12"
-            src="url('./assets/cross.png')"
+            src="src/assets/cross.png"
             alt="cross"
           />
         </div>
         <div className="flex mt-11 flex-col gap-10 text-3xl justify-center items-center">
-          <img src="url('src/assets/desi-brit-logo.jpeg')" className="w-2/3" />
+          <img src="src/assets/desi-brit-logo.jpeg" className="w-2/3" />
           <NavLink
             to="/"
             className={({ isActive }) =>
