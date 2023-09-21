@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import ReactHtmlParser from "react-html-parser";
+import parse from "html-react-parser";
 
 export const Accordion = ({ question, answer, tabIndex }: any) => {
   const [isExpanded, setIsExpanded] = useState(false);
@@ -32,7 +32,7 @@ export const Accordion = ({ question, answer, tabIndex }: any) => {
       {isExpanded ? (
         <div className="h-auto py-4 flex flex-col w-7/8 md:w-4/5 gap-8 text-neutral-500">
           <div className="flex flex-col gap-2 font-medium">
-            {answer.map((ans: any) => ReactHtmlParser(ans))}
+            {answer.map((ans: any) => parse(ans))}
           </div>
         </div>
       ) : null}
