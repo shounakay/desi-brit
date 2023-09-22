@@ -49,16 +49,16 @@ export const OurStory = () => {
             controls
             className="w-[500px] rounded-3xl border-spacing-20 border-jade-600 lg:w-[900px]"
           >
-            <source src="public/assets/Final.mp4" type="video/mp4" />
+            <source src="assets/Final.mp4" type="video/mp4" />
           </video>
         </section>
         <section className="flex flex-col justify-start px-8 items-center bg-paradiso-100 py-11">
           <h6 className="text-3xl border-b pb-4 mb-4 border-stone-500 font-caudex">
             Our Pensieve Of Memories
           </h6>
-          <img src="public/assets/collage-green.png" alt="collage" />
+          <img src="assets/collage-green.png" alt="collage" />
           <img
-            src="public/assets/collage-green-2.png"
+            src="assets/collage-green-2.png"
             className="pt-[-11px]"
             alt="collage"
           />

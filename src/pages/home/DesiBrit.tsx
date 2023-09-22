@@ -23,7 +23,7 @@ export const DesiBrit = () => {
                 <img
                   className="sm:w-14 w-12 sm:h-auto h-14"
                   onClick={() => setIsNavClicked(true)}
-                  src="public/assets/menu-burger-white.png"
+                  src="assets/menu-burger-white.png"
                   loading="lazy"
                 />
               </div>
@@ -100,7 +100,7 @@ export const DesiBrit = () => {
           <article className="flex flex-col pt-14 rounded-sm basis-1/2 items-center shrink-0 grow bg-nero-100">
             <div className="flex flex-col gap-6 w-full p-12 rounded-lg">
               <img
-                src="public/assets/beaconside.jpeg"
+                src="assets/beaconside.jpeg"
                 alt="beaconside-house"
                 loading="lazy"
                 className="md:w-[500px] self-center lg:self-end w-[350px] sm:w-[450px] h-96"
@@ -133,7 +133,7 @@ export const DesiBrit = () => {
                 Two-Day Itinerary
               </h6>
               <img
-                src="public/assets/timelin-fn.png"
+                src="assets/timelin-fn.png"
                 alt="timeline-full"
                 className="self-start"
                 loading="lazy"
@@ -213,7 +213,7 @@ export const DesiBrit = () => {
           <img
             onClick={() => setIsNavClicked(false)}
             className="h-12"
-            src="public/assets/cross.png"
+            src="assets/cross.png"
             alt="cross"
             loading="lazy"
           />
