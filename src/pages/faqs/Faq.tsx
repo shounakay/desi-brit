@@ -48,9 +48,9 @@ export const Faq = () => {
             </div>
           </nav>
         </header>
-        <section className=" flex flex-col gap-14 min-h-[1000px] bg-tango-100 py-16 justify-start">
+        <section className="flex flex-col gap-14 min-h-[1000px] bg-tango-100 py-16 justify-start">
           <div className="self-center text-neutral-600 text-3xl font-extrabold underline-offset-4">
-            <h4>THE ROOM OF REQUIREMENT</h4>
+            <h4 className="text-center">THE ROOM OF REQUIREMENT</h4>
             <div className="flex flex-row gap-2 text-center justify-center">
               <h4>FAQs EDITION</h4>
             </div>
@@ -131,7 +131,7 @@ export const Faq = () => {
         <footer className="flex justify-between items-center text-sm md:text-base px-4 lg:px-0 xl:px-10 bg-neutral-800 h-auto w-full py-6 text-stone-300">
           <div className="justify-start basis-1/2 pl-8 grow hidden lg:block">
             <img
-              src="assets/logo-black.png"
+              src="/assets/logo-black.png"
               alt="dark-log"
               className="w-80"
               loading="lazy"

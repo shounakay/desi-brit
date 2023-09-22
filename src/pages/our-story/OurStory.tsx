@@ -16,8 +16,8 @@ export const OurStory = () => {
               />
             </div>
           </nav>
-          <nav className="lg:flex hidden justify-between items-center h-24 w-full text-white px-16">
-            <div className="flex flex-row gap-16 text-xl font-semibold">
+          <nav className="lg:flex hidden justify-between  items-center h-24 w-full text-white px-16">
+            <div className="flex flex-row gap-16 2xl:text-xl xl:text-base font-semibold">
               <NavLink to="/">DESI BRIT WEDDING</NavLink>
               <NavLink
                 to="/our-story"
@@ -66,7 +66,7 @@ export const OurStory = () => {
         <footer className="flex justify-between items-center text-sm md:text-base px-4 lg:px-0 xl:px-10 bg-neutral-800 h-auto w-full py-6 text-stone-300">
           <div className="justify-start basis-1/2 pl-8 grow hidden lg:block">
             <img
-              src="assets/logo-black.png"
+              src="/assets/logo-black.png"
               alt="dark-log"
               className="w-80"
               loading="lazy"

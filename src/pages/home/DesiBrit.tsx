@@ -60,7 +60,7 @@ export const DesiBrit = () => {
               </div>
             </ul>
           </nav>
-          <section className="flex flex-col basis-11/12 justify-end md:pl-1 md:pb-10 pb-12 pl-8 items-center gap-3 text-white">
+          <section className="flex flex-col basis-11/12 justify-end md:pl-1 md:pb-10 pb-12 pl-2 sm:pl-8 items-center gap-3 text-white">
             <h6 className="sm:text-[34px] text-2xl font-semibold">
               WE ARE GETTING MARRIED!
             </h6>
@@ -76,14 +76,16 @@ export const DesiBrit = () => {
         </header>
         <section className="flex flex-col gap-5 w-full h-auto py-12 px-8 bg-tango-300">
           <article className="flex flex-row w-full flex-wrap">
-            <h6 className="sm:text-[80px] text-[60px] text-centerfont-bold basis-1/2 grow shrink-0 xl:px-72 2xl:px-20 lg:px-20 font-caudex">
-              IT IS HAPPENING!!
-            </h6>
+            <div className="flex felx-wrap basis-1/2 grow shrink-0 xl:px-16 2xl:px-20 lg:px-20">
+              <h6 className="sm:text-[80px] text-[60px] font-medium font-caudex">
+                IT IS HAPPENING!!
+              </h6>
+            </div>
             <div className="basis-1/2 grow flex justify-center 2xl:justify-end shrink-0 pr-8">
               <img
                 src="assets/desi-brit-new.png"
                 alt="desi-brit-logo"
-                className="w-[80%] lg:w-[45%] xl:w-[30%] 2xl:w-[60%] h-48"
+                className="w-[80%] lg:w-[45%] xl:w-[60%] h-48"
                 loading="lazy"
               />
             </div>
@@ -103,15 +105,15 @@ export const DesiBrit = () => {
                 src="assets/beaconside.jpeg"
                 alt="beaconside-house"
                 loading="lazy"
-                className="md:w-[500px] self-center lg:self-end w-[350px] sm:w-[450px] h-96"
+                className="md:w-[500px] self-center lg:self-end w-[320px] sm:w-[450px] h-96"
               />
             </div>
-            <h6 className="text-xl text-center lg:self-end lg:pr-20 w-[300px] sm:w-[450px] lg:w-[500px] px-12 lg:px-0 font-medium ">
+            <h6 className="text-xl text-center lg:self-end lg:pr-20 w-[320px] sm:w-[450px] lg:w-[500px] px-5 sm:px-12 lg:px-0 font-medium ">
               The wedding celebration will take place at{" "}
               <span className="text-tango-700">Beaconside House, Devon</span>.
             </h6>
             <div className="flex flex-col gap-6 p-12 pb-4 w-full h-full rounded-lg bg-nero-100">
-              <div className="sm:w-[500px] w-[350px] self-center lg:self-end lg:w-[500px] h-[350px]">
+              <div className="sm:w-[500px] w-[320px] self-center lg:self-end lg:w-[500px] h-[350px]">
                 <GoogleMapReact
                   bootstrapURLKeys={{
                     key: "AIzaSyAfXgDvJ6dht9yqcQOkvIko5oP1goAL44s",

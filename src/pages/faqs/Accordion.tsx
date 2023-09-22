@@ -10,21 +10,21 @@ export const Accordion = ({ question, answer, tabIndex }: any) => {
     <section className="flex flex-col bg-tango-100 grow h-full first:pt-4 pt-4 justify-center md:items-center px-4">
       <div
         onClick={() => setIsExpanded((prev) => !prev)}
-        className={`flex justify-between border-b-2 border-rust-400 items-center w-7/8 md:w-4/5 hover:cursor-pointer py-2`}
+        className={`flex justify-between border-b-2 border-rust-400  items-center w-7/8 md:w-4/5 hover:cursor-pointer py-2`}
       >
         <div className="text-neutral-500 font-medium">{question}</div>
-        <div className="">
+        <div className="shrink-0">
           {isExpanded ? (
             <img
-              src="./assets/angle-small-up-rust.png"
+              src="/assets/angle-small-up-rust.png"
               alt="bottom-arrow"
-              className="text-rust-800"
+              className="text-rust-800 w-6"
             />
           ) : (
             <img
-              src="src/assets/angle-small-down-rust.png"
+              src="/assets/angle-small-down-rust.png"
               alt="top-arrow"
-              className="text-rust-800"
+              className="text-rust-800 w-6"
             />
           )}
         </div>

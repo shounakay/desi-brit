@@ -93,7 +93,7 @@ export const RSVP = () => {
             </h6>
             <div>
               We're so excited to see you at our big day! Let us know if you can
-              make it by <strong>December 31st.</strong>
+              make it by <strong>November 30th.</strong>
             </div>
           </div>
           <div className="flex flex-col gap-5 justify-start w-9/12 h-auto px-4 md:items-center md:pl-24">
@@ -265,12 +265,12 @@ export const RSVP = () => {
           <img
             onClick={() => setIsNavClicked(false)}
             className="h-12"
-            src="src/assets/cross.png"
+            src="/assets/cross.png"
             alt="cross"
           />
         </div>
         <div className="flex mt-11 flex-col gap-10 text-3xl justify-center items-center">
-          <img src="src/assets/desi-brit-logo.jpeg" className="w-2/3" />
+          <img src="/assets/desi-brit-logo.jpeg" className="w-2/3" />
           <NavLink
             to="/"
             className={({ isActive }) =>
