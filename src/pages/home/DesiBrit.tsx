@@ -15,13 +15,13 @@ export const DesiBrit = () => {
 
   if (!isNavClicked) {
     return (
-      <main>
-        <header className="flex flex-col h-[900px] backdrop-brightness-200 bg-anu bg-cover bg-center scale-100 shadow-xl">
+      <main className="h-full w-screen">
+        <header className="flex flex-col h-[900px] w-full backdrop-brightness-200 bg-anu bg-cover bg-center shadow-xl">
           <nav className="basis-16 transition-all delay-150 duration-500 ease-linear">
             <ul className="flex flex-row px-4 text-white">
-              <div className="self-center xl:hidden cursor-pointer">
+              <div className="self-center pt-5 sm:pt-0 xl:hidden cursor-pointer">
                 <img
-                  className="w-14 h-auto"
+                  className="sm:w-14 w-12 sm:h-auto h-14"
                   onClick={() => setIsNavClicked(true)}
                   src="src/assets/menu-burger-white.png"
                   loading="lazy"
@@ -45,7 +45,7 @@ export const DesiBrit = () => {
                   <NavLink to="/faqs">FAQs</NavLink>
                 </li>
               </div>
-              <div className="basis-[55%] 2xl:basis-[40%] h-24 flex xl:justify-start 2xl:justify-center sm:ml-36 md:ml-64 lg:ml-[360px] xl:ml-16 2xl:pl-0 2xl:pr-12 pl-0 ml-32 2xl:ml-20 2xl:mr-96 items-end text-white font-adlery text-center text-[40px] animate-dropDownName self-center">
+              <div className="sm:flex hidden basis-[55%] 2xl:basis-[40%] h-24 xl:justify-start 2xl:justify-center sm:ml-36 md:ml-64 lg:ml-[360px] xl:ml-16 2xl:pl-0 2xl:pr-12 pl-0 ml-32 2xl:ml-20 2xl:mr-96 items-end text-white font-adlery text-center text-[40px] animate-dropDownName self-center">
                 <div className="-rotate-12 text-tango-600">Nupoor</div>
                 <div className="-rotate-12 text-tango-600">& Andrew</div>
               </div>
@@ -61,7 +61,7 @@ export const DesiBrit = () => {
             </ul>
           </nav>
           <section className="flex flex-col basis-11/12 justify-end md:pl-1 md:pb-10 pb-12 pl-8 items-center gap-3 text-white">
-            <h6 className="text-[34px] font-semibold">
+            <h6 className="sm:text-[34px] text-2xl font-semibold">
               WE ARE GETTING MARRIED!
             </h6>
             <div className="w-96 h-[100px] rounded-[60px] border-[1px] flex bg-rust-200 flex-row divide-x divide-white items-center justify-evenly bg-transparent">
@@ -76,14 +76,14 @@ export const DesiBrit = () => {
         </header>
         <section className="flex flex-col gap-5 w-full h-auto py-12 px-8 bg-tango-300">
           <article className="flex flex-row w-full flex-wrap">
-            <h6 className="text-[80px] text-centerfont-bold basis-1/2 grow shrink-0 xl:px-72 2xl:px-20 lg:px-20 font-caudex">
+            <h6 className="sm:text-[80px] text-[60px] text-centerfont-bold basis-1/2 grow shrink-0 xl:px-72 2xl:px-20 lg:px-20 font-caudex">
               IT IS HAPPENING!!
             </h6>
             <div className="basis-1/2 grow flex justify-center 2xl:justify-end shrink-0 pr-8">
               <img
-                src="src/assets/desi-brit-new.png"
+                src="assets/desi-brit-new.png"
                 alt="desi-brit-logo"
-                className="w-[80%] lg:w-[56%] h-48"
+                className="w-[80%] lg:w-[45%] xl:w-[30%] h-48"
                 loading="lazy"
               />
             </div>
@@ -100,18 +100,18 @@ export const DesiBrit = () => {
           <article className="flex flex-col pt-14 rounded-sm basis-1/2 items-center shrink-0 grow bg-nero-100">
             <div className="flex flex-col gap-6 w-full p-12 rounded-lg">
               <img
-                src="src/assets/beaconside.jpeg"
+                src="public/assets/beaconside.jpeg"
                 alt="beaconside-house"
                 loading="lazy"
-                className="md:w-[500px] self-center lg:self-end w-[500px] h-96"
+                className="md:w-[500px] self-center lg:self-end w-[350px] sm:w-[450px] h-96"
               />
             </div>
-            <h6 className="text-xl text-center lg:self-end lg:pr-20 lg:w-[500px] px-12 lg:px-0 font-medium ">
+            <h6 className="text-xl text-center lg:self-end lg:pr-20 w-[300px] sm:w-[450px] lg:w-[500px] px-12 lg:px-0 font-medium ">
               The wedding celebration will take place at{" "}
               <span className="text-tango-700">Beaconside House, Devon</span>.
             </h6>
             <div className="flex flex-col gap-6 p-12 pb-4 w-full h-full rounded-lg bg-nero-100">
-              <div className="w-[500px] self-center lg:self-end lg:w-[500px] h-[350px]">
+              <div className="sm:w-[500px] w-[350px] self-center lg:self-end lg:w-[500px] h-[350px]">
                 <GoogleMapReact
                   bootstrapURLKeys={{
                     key: "AIzaSyAfXgDvJ6dht9yqcQOkvIko5oP1goAL44s",
@@ -133,7 +133,7 @@ export const DesiBrit = () => {
                 Two-Day Itinerary
               </h6>
               <img
-                src="src/assets/timelin-fn.png"
+                src="public/assets/timelin-fn.png"
                 alt="timeline-full"
                 className="self-start"
                 loading="lazy"
@@ -172,7 +172,7 @@ export const DesiBrit = () => {
             </button>
           </Link>
         </section>
-        <footer className="flex justify-between items-center px-4 lg:px-0 bg-neutral-800 h-auto w-full py-6 text-stone-300">
+        <footer className="flex justify-between items-center text-sm md:text-base px-4 lg:px-0 xl:px-10 bg-neutral-800 h-auto w-full py-6 text-stone-300">
           <div className="justify-start basis-1/2 pl-8 grow hidden lg:block">
             <img
               src="assets/logo-black.png"
@@ -181,7 +181,7 @@ export const DesiBrit = () => {
               loading="lazy"
             />
           </div>
-          <div className="flex justify-start lg:justify-end grow">
+          <div className="flex justify-start lg:justify-end xl:justify-center grow">
             <div className="flex flex-col gap-2 py-4">
               <h5>Email us at:</h5>
               <div className="text-neutral-300 underline">
@@ -189,16 +189,18 @@ export const DesiBrit = () => {
               </div>
             </div>
           </div>
-          <div className="flex justify-end grow">
-            <div className="flex flex-col gap-2 underline text-neutral-300">
-              <Link to="/">Desi Brit Wedding</Link>
-              <Link to="/our-story">Our Story</Link>
+          <div className="flex flex-col sm:flex-row gap-2 lg:gap-6">
+            <div className="flex justify-end grow">
+              <div className="flex flex-col gap-2 underline text-neutral-300">
+                <Link to="/">Desi Brit Wedding</Link>
+                <Link to="/our-story">Our Story</Link>
+              </div>
             </div>
-          </div>
-          <div className="flex justify-center grow">
-            <div className="flex flex-col gap-2 underline text-neutral-300">
-              <Link to="/faqs">FAQs</Link>
-              <Link to="/rsvp">RSVP</Link>
+            <div className="flex justify-start sm:justify-center grow">
+              <div className="flex flex-col gap-2 underline text-neutral-300">
+                <Link to="/faqs">FAQs</Link>
+                <Link to="/rsvp">RSVP</Link>
+              </div>
             </div>
           </div>
         </footer>

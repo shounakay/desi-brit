@@ -224,15 +224,16 @@ export const RSVP = () => {
             </button>
           </div>
         </section>
-        <footer className="flex justify-between items-center px-4 lg:px-0 bg-neutral-800 h-auto w-full py-6 text-stone-300">
+        <footer className="flex justify-between items-center text-sm md:text-base px-4 lg:px-0 xl:px-10 bg-neutral-800 h-auto w-full py-6 text-stone-300">
           <div className="justify-start basis-1/2 pl-8 grow hidden lg:block">
             <img
-              src="src/assets/logo-black.png"
+              src="assets/logo-black.png"
               alt="dark-log"
               className="w-80"
+              loading="lazy"
             />
           </div>
-          <div className="flex justify-start lg:justify-end grow">
+          <div className="flex justify-start lg:justify-end xl:justify-center grow">
             <div className="flex flex-col gap-2 py-4">
               <h5>Email us at:</h5>
               <div className="text-neutral-300 underline">
@@ -240,16 +241,18 @@ export const RSVP = () => {
               </div>
             </div>
           </div>
-          <div className="flex justify-end grow">
-            <div className="flex flex-col gap-2 underline text-neutral-300">
-              <Link to="/">Desi Brit Wedding</Link>
-              <Link to="/our-story">Our Story</Link>
+          <div className="flex flex-col sm:flex-row gap-2 lg:gap-6">
+            <div className="flex justify-end grow">
+              <div className="flex flex-col gap-2 underline text-neutral-300">
+                <Link to="/">Desi Brit Wedding</Link>
+                <Link to="/our-story">Our Story</Link>
+              </div>
             </div>
-          </div>
-          <div className="flex justify-center grow">
-            <div className="flex flex-col gap-2 underline text-neutral-300">
-              <Link to="/faqs">FAQs</Link>
-              <Link to="/rsvp">RSVP</Link>
+            <div className="flex justify-start sm:justify-center grow">
+              <div className="flex flex-col gap-2 underline text-neutral-300">
+                <Link to="/faqs">FAQs</Link>
+                <Link to="/rsvp">RSVP</Link>
+              </div>
             </div>
           </div>
         </footer>
