@@ -215,14 +215,14 @@ export const DesiBrit = () => {
           <img
             onClick={() => setIsNavClicked(false)}
             className="h-12"
-            src="assets/cross.png"
+            src="/assets/cross.png"
             alt="cross"
             loading="lazy"
           />
         </div>
         <div className="flex mt-11 flex-col gap-10 text-3xl justify-center items-center">
           <img
-            src="src/assets/desi-brit-logo.jpeg"
+            src="/assets/desi-brit-logo.jpeg"
             className="w-2/3"
             loading="lazy"
           />
