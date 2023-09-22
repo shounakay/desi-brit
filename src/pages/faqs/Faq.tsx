@@ -21,7 +21,8 @@ export const Faq = () => {
               <img
                 className="w-14 h-auto"
                 onClick={() => setIsNavClicked(true)}
-                src="assets/menu-burger-2.png"
+                src="/assets/menu-burger-2.png"
+                loading="lazy"
               />
             </div>
           </nav>
@@ -169,12 +170,16 @@ export const Faq = () => {
           <img
             onClick={() => setIsNavClicked(false)}
             className="h-12"
-            src="assets/cross.png"
+            src="/assets/cross.png"
             alt="cross"
           />
         </div>
         <div className="flex mt-11 flex-col gap-10 text-3xl justify-center items-center">
-          <img src="assets/desi-brit-logo.jpeg" className="w-2/3" />
+          <img
+            src="/assets/desi-brit-logo.jpeg"
+            className="w-2/3"
+            loading="lazy"
+          />
           <NavLink
             to="/"
             className={({ isActive }) =>

@@ -12,7 +12,8 @@ export const OurStory = () => {
               <img
                 className="w-14 h-auto"
                 onClick={() => setIsNavClicked(true)}
-                src="src/assets/menu-burger-white.png"
+                src="/assets/menu-burger-white.png"
+                loading="lazy"
               />
             </div>
           </nav>
@@ -58,9 +59,10 @@ export const OurStory = () => {
           </h6>
           <img src="assets/collage-green.png" alt="collage" />
           <img
-            src="assets/collage-green-2.png"
+            src="/assets/collage-green-2.png"
             className="pt-[-11px]"
             alt="collage"
+            loading="lazy"
           />
         </section>
         <footer className="flex justify-between items-center text-sm md:text-base px-4 lg:px-0 xl:px-10 bg-neutral-800 h-auto w-full py-6 text-stone-300">
@@ -104,12 +106,12 @@ export const OurStory = () => {
           <img
             onClick={() => setIsNavClicked(false)}
             className="h-12"
-            src="src/assets/cross.png"
+            src="/assets/cross.png"
             alt="cross"
           />
         </div>
         <div className="flex mt-11 flex-col gap-10 text-3xl justify-center items-center">
-          <img src="src/assets/desi-brit-logo.jpeg" className="w-2/3" />
+          <img src="/assets/desi-brit-logo.jpeg" className="w-2/3" />
           <NavLink
             to="/"
             className={({ isActive }) =>

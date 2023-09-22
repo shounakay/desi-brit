@@ -19,12 +19,14 @@ export const Accordion = ({ question, answer, tabIndex }: any) => {
               src="/assets/angle-small-up-rust.png"
               alt="bottom-arrow"
               className="text-rust-800 w-6"
+              loading="lazy"
             />
           ) : (
             <img
               src="/assets/angle-small-down-rust.png"
               alt="top-arrow"
               className="text-rust-800 w-6"
+              loading="lazy"
             />
           )}
         </div>
