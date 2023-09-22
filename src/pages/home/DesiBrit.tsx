@@ -21,7 +21,7 @@ export const DesiBrit = () => {
             <ul className="flex flex-row px-4 text-white">
               <div className="self-center pt-5 sm:pt-0 xl:hidden cursor-pointer">
                 <img
-                  className="sm:w-14 w-12 sm:h-auto h-14"
+                  className="sm:w-14 w-12 sm:h-auto h-10"
                   onClick={() => setIsNavClicked(true)}
                   src="/assets/menu-burger-white.png"
                   loading="lazy"
@@ -77,7 +77,7 @@ export const DesiBrit = () => {
         <section className="flex flex-col gap-5 w-full h-auto py-12 px-8 bg-tango-300">
           <article className="flex flex-row w-full flex-wrap">
             <div className="flex felx-wrap basis-1/2 grow shrink-0 xl:px-16 2xl:px-20 lg:px-20">
-              <h6 className="sm:text-[80px] text-[60px] font-medium font-caudex">
+              <h6 className="sm:text-[80px] text-[56px] font-medium font-caudex">
                 IT IS HAPPENING!!
               </h6>
             </div>
@@ -85,7 +85,7 @@ export const DesiBrit = () => {
               <img
                 src="/assets/desi-brit-new.png"
                 alt="desi-brit-logo"
-                className="w-[80%] lg:w-[45%] xl:w-[60%] h-48"
+                className="w-[95%] sm:w-[80%] lg:w-[45%] xl:w-[60%] h-48"
                 loading="lazy"
               />
             </div>
@@ -105,7 +105,7 @@ export const DesiBrit = () => {
                 src="/assets/beaconside.jpeg"
                 alt="beaconside-house"
                 loading="lazy"
-                className="md:w-[500px] self-center lg:self-end w-[320px] sm:w-[450px] h-96"
+                className="md:w-[500px] self-center lg:self-end w-[330px] sm:w-[450px] h-96"
               />
             </div>
             <h6 className="text-xl text-center lg:self-end lg:pr-20 w-[320px] sm:w-[450px] lg:w-[500px] px-5 sm:px-12 lg:px-0 font-medium ">

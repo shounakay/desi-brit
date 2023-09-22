@@ -19,7 +19,7 @@ export const Faq = () => {
           >
             <div className="cursor-pointer p-5">
               <img
-                className="w-14 h-auto"
+                className="w-14 h-10"
                 onClick={() => setIsNavClicked(true)}
                 src="/assets/menu-burger-2.png"
                 loading="lazy"

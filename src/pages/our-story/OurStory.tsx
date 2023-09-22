@@ -10,7 +10,7 @@ export const OurStory = () => {
           <nav className="lg:hidden " onClick={() => setIsNavClicked(true)}>
             <div className="cursor-pointer p-5">
               <img
-                className="w-14 h-auto"
+                className="w-14 h-10"
                 onClick={() => setIsNavClicked(true)}
                 src="/assets/menu-burger-white.png"
                 loading="lazy"

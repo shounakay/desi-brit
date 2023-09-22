@@ -62,7 +62,7 @@ export const RSVP = () => {
           <nav className="lg:hidden " onClick={() => setIsNavClicked(true)}>
             <div className="cursor-pointer p-5">
               <img
-                className="w-14 h-auto"
+                className="w-14 h-10"
                 onClick={() => setIsNavClicked(true)}
                 src="/assets/menu-burger-2.png"
               />
@@ -154,7 +154,7 @@ export const RSVP = () => {
                 variant="outlined"
               />
             </div>
-            <div className="w-[620px] md:pl-[220px]">
+            <div className="lg:w-[620px] w-[200px] md:pl-[220px]">
               <div>Do you have any dietary restrictions or allergies ?</div>
               <TextField
                 id="outlined-basic"
