@@ -365,9 +365,9 @@ export default {
         daydream: "'Daydream', serif",
       },
       backgroundImage: {
-        anu: "url('assets/Centregif.gif')",
+        anu: "url('./public/assets/Centregif.gif')",
         ourStory: "url('./assets/IMG_20190924_113403.jpg')",
-        rsvp: "url('public/assets/PXL_20210527_101300826.jpg')",
+        rsvp: "url('/assets/PXL_20210527_101300826.jpg')",
       },
     },
   },
