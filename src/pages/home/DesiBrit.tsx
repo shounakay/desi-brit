@@ -85,12 +85,12 @@ export const DesiBrit = () => {
               <img
                 src="/assets/desi-brit-new.png"
                 alt="desi-brit-logo"
-                className="w-[95%] sm:w-[80%] lg:w-[45%] xl:w-[60%] h-48"
+                className="w-[100%] sm:w-[80%] lg:w-[45%] xl:w-[60%] h-36 md:h-48"
                 loading="lazy"
               />
             </div>
           </article>
-          <p className="text-xl font-medium tracking-widest lg:pl-20 lg:pr-16">
+          <p className="md:text-xl text-[16px] text-left font-medium tracking-tighter xl:tracking-wide lg:pl-20 lg:pr-16">
             We are soo excited! Get ready for some fun shenanigans where the
             vibrant hues of Indian sarees meet the elegance of British suits and
             the Indian traditions meet the British charm. Your love and
@@ -105,7 +105,7 @@ export const DesiBrit = () => {
                 src="/assets/beaconside.jpeg"
                 alt="beaconside-house"
                 loading="lazy"
-                className="md:w-[500px] self-center lg:self-end w-[330px] sm:w-[450px] h-96"
+                className="md:w-[500px] self-center lg:self-end w-[330px] sm:w-[450px] h-80 sm:h-96"
               />
             </div>
             <h6 className="text-xl text-center lg:self-end lg:pr-20 w-[320px] sm:w-[450px] lg:w-[500px] px-5 sm:px-12 lg:px-0 font-medium ">
@@ -113,7 +113,7 @@ export const DesiBrit = () => {
               <span className="text-tango-700">Beaconside House, Devon</span>.
             </h6>
             <div className="flex flex-col gap-6 p-12 pb-4 w-full h-full rounded-lg bg-nero-100">
-              <div className="sm:w-[500px] w-[320px] self-center lg:self-end lg:w-[500px] h-[350px]">
+              <div className="sm:w-[500px] w-[320px] self-center lg:self-end lg:w-[500px] h-[300px] sm:h-[350px]">
                 <GoogleMapReact
                   bootstrapURLKeys={{
                     key: "AIzaSyAfXgDvJ6dht9yqcQOkvIko5oP1goAL44s",
