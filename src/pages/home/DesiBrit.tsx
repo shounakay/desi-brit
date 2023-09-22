@@ -23,7 +23,7 @@ export const DesiBrit = () => {
                 <img
                   className="sm:w-14 w-12 sm:h-auto h-14"
                   onClick={() => setIsNavClicked(true)}
-                  src="src/assets/menu-burger-white.png"
+                  src="public/assets/menu-burger-white.png"
                   loading="lazy"
                 />
               </div>
@@ -83,7 +83,7 @@ export const DesiBrit = () => {
               <img
                 src="assets/desi-brit-new.png"
                 alt="desi-brit-logo"
-                className="w-[80%] lg:w-[45%] xl:w-[30%] h-48"
+                className="w-[80%] lg:w-[45%] xl:w-[30%] 2xl:w-[60%] h-48"
                 loading="lazy"
               />
             </div>
@@ -213,7 +213,7 @@ export const DesiBrit = () => {
           <img
             onClick={() => setIsNavClicked(false)}
             className="h-12"
-            src="src/assets/cross.png"
+            src="public/assets/cross.png"
             alt="cross"
             loading="lazy"
           />
