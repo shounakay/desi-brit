@@ -48,13 +48,13 @@ export const OurStory = () => {
           </div>
           <video
             controls
-            className="w-[500px] rounded-3xl border-spacing-20 border-jade-600 lg:w-[900px]"
+            className="w-[500px] rounded-3xl border-spacing-20 border-jade-600 px-4 lg:w-[900px]"
           >
             <source src="assets/Final.mp4" type="video/mp4" />
           </video>
         </section>
         <section className="flex flex-col justify-start px-8 items-center bg-paradiso-100 py-11">
-          <h6 className="text-3xl border-b pb-4 mb-4 border-stone-500 font-caudex">
+          <h6 className="text-3xl border-b pb-4 mb-4 border-stone-500 text-center font-caudex">
             Our Pensieve Of Memories
           </h6>
           <img src="assets/collage-green.png" alt="collage" />
