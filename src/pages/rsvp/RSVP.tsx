@@ -68,7 +68,7 @@ export const RSVP = () => {
               />
             </div>
           </nav>
-          <nav className="lg:flex hidden justify-between items-center h-24 text-xl w-full text-stone-700 px-16">
+          <nav className="lg:flex hidden justify-between items-center h-24 text-xl w-full text-stone-700 pl-6 pr-14">
             <div className="flex flex-row gap-10 font-semibold">
               <NavLink to="/">DESI BRIT WEDDING</NavLink>
               <NavLink to="/our-story">OUR STORY</NavLink>
