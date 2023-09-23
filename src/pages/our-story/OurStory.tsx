@@ -105,7 +105,7 @@ export const OurStory = () => {
         <div className="cursor-pointer">
           <img
             onClick={() => setIsNavClicked(false)}
-            className="h-12"
+            className="h-8"
             src="/assets/cross.png"
             alt="cross"
           />

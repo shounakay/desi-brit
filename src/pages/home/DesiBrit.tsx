@@ -105,7 +105,7 @@ export const DesiBrit = () => {
                 src="/assets/beaconside.jpeg"
                 alt="beaconside-house"
                 loading="lazy"
-                className="md:w-[500px] self-center lg:self-end w-[330px] sm:w-[450px] h-72 sm:h-96"
+                className="md:w-[500px] self-center lg:self-end w-[330px] sm:w-[450px] h-64 sm:h-96"
               />
             </div>
             <h6 className="text-xl text-center lg:self-end lg:pr-20 w-[320px] sm:w-[450px] lg:w-[500px] px-5 sm:px-12 lg:px-0 font-medium ">
@@ -214,7 +214,7 @@ export const DesiBrit = () => {
         <div className="cursor-pointer">
           <img
             onClick={() => setIsNavClicked(false)}
-            className="h-12"
+            className="h-8"
             src="/assets/cross.png"
             alt="cross"
             loading="lazy"
