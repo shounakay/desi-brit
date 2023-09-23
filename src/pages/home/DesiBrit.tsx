@@ -46,8 +46,8 @@ export const DesiBrit = () => {
                 </li>
               </div>
               <div className="sm:flex hidden basis-[55%] 2xl:basis-[40%] h-24 xl:justify-start 2xl:justify-center sm:ml-36 md:ml-64 lg:ml-[360px] xl:ml-16 2xl:pl-0 2xl:pr-12 pl-0 ml-32 2xl:ml-20 2xl:mr-96 items-end text-white font-adlery text-center text-[40px] animate-dropDownName self-center">
-                <div className="-rotate-12 text-tango-600">Nupoor</div>
-                <div className="-rotate-12 text-tango-600">& Andrew</div>
+                <div className="-rotate-12 text-tango-500">Nupoor</div>
+                <div className="-rotate-12 text-tango-500">& Andrew</div>
               </div>
               <div className="xl:flex basis-[15%] shrink justify-end mr-8 items-center hidden">
                 <li className="hover:text-amber-500">
@@ -85,13 +85,13 @@ export const DesiBrit = () => {
               <img
                 src="/assets/desi-brit-new-transp.png"
                 alt="desi-brit-logo"
-                className="w-[100%] sm:w-[80%] lg:w-[45%] xl:w-[60%] h-32 md:h-44"
+                className="w-[100%] sm:w-[80%] lg:w-[45%] xl:w-[60%] h-32 md:h-40"
                 loading="lazy"
               />
             </div>
           </article>
           <p className="md:text-xl text-[16px] text-left font-medium tracking-tighter xl:tracking-wide lg:pl-20 lg:pr-16">
-            We are soo excited! Get ready for some fun shenanigans where the
+            We are soo excited! Get ready for some fun shenanigan where the
             vibrant hues of Indian sarees meet the elegance of British suits and
             the Indian traditions meet the British charm. Your love and
             blessings mean the world to us and we cannot wait to share this
