@@ -85,7 +85,7 @@ export const DesiBrit = () => {
               <img
                 src="/assets/desi-brit-new-transp.png"
                 alt="desi-brit-logo"
-                className="w-[100%] sm:w-[80%] lg:w-[45%] xl:w-[60%] h-32 md:h-48"
+                className="w-[100%] sm:w-[80%] lg:w-[45%] xl:w-[60%] h-32 md:h-44"
                 loading="lazy"
               />
             </div>
