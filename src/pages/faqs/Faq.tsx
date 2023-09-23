@@ -2,12 +2,14 @@ import { useMemo, useState } from "react";
 import { Accordion } from "./Accordion";
 import { qna } from "./qna";
 import { Link, NavLink, useNavigate } from "react-router-dom";
+import { useScrollToTop } from "../../hooks/useScrolltoTop";
 
 export const Faq = () => {
   const [tabIndex, setTabIndex] = useState(0);
   const navigate = useNavigate();
   const [isNavClicked, setIsNavClicked] = useState(false);
   const { qa } = useMemo(() => qna[tabIndex], [tabIndex]);
+  useScrollToTop();
 
   if (!isNavClicked) {
     return (

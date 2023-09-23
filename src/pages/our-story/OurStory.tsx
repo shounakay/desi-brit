@@ -1,8 +1,10 @@
 import { Link, NavLink } from "react-router-dom";
 import { useState } from "react";
+import { useScrollToTop } from "../../hooks/useScrolltoTop";
 
 export const OurStory = () => {
   const [isNavClicked, setIsNavClicked] = useState(false);
+  useScrollToTop();
   if (!isNavClicked) {
     return (
       <main className="h-screen">

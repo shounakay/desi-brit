@@ -1,6 +1,7 @@
 import GoogleMapReact from "google-map-react";
 import { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
+import { useScrollToTop } from "../../hooks/useScrolltoTop";
 
 export const DesiBrit = () => {
   const [isNavClicked, setIsNavClicked] = useState(false);
@@ -12,6 +13,7 @@ export const DesiBrit = () => {
     });
     return marker;
   };
+  useScrollToTop();
 
   if (!isNavClicked) {
     return (
@@ -201,7 +203,9 @@ export const DesiBrit = () => {
             <div className="flex justify-start sm:justify-center grow">
               <div className="flex flex-col gap-2 underline text-neutral-300">
                 <Link to="/faqs">FAQs</Link>
-                <Link to="/rsvp">RSVP</Link>
+                <Link to="/rsvp" preventScrollReset={false}>
+                  RSVP
+                </Link>
               </div>
             </div>
           </div>

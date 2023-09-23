@@ -3,6 +3,7 @@ import TextField from "@mui/material/TextField";
 import { useMemo, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { Link, NavLink } from "react-router-dom";
+import { useScrollToTop } from "../../hooks/useScrolltoTop";
 
 export const RSVP = () => {
   const [name, setName] = useState("");
@@ -15,6 +16,7 @@ export const RSVP = () => {
   const [comments, setComments] = useState("");
   const [isNavClicked, setIsNavClicked] = useState(false);
 
+  useScrollToTop();
   const isBtnDisabled = useMemo(() => {
     return (
       !name ||
@@ -139,7 +141,7 @@ export const RSVP = () => {
             <div className="w-96 md:pl-[100px]">
               <div>Who will be joining you ?</div>
               <div className="text-neutral-400 text-xs">
-                If your invite has multiple names
+                if your invite has multiple names
               </div>
               <TextField
                 id="outlined-basic"

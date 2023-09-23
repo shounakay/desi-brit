@@ -4,9 +4,14 @@ import "./App.css";
 import { RSVP } from "./pages/rsvp/RSVP";
 import { DesiBrit } from "./pages/home/DesiBrit";
 import emailjs from "@emailjs/browser";
-import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import {
+  RouterProvider,
+  createBrowserRouter,
+  useLocation,
+} from "react-router-dom";
 import { Faq } from "./pages/faqs/Faq";
 import { OurStory } from "./pages/our-story/OurStory";
+import { useScrollToTop } from "./hooks/useScrolltoTop";
 
 export function App() {
   const router = createBrowserRouter([
