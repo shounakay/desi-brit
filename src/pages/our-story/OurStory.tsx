@@ -68,7 +68,7 @@ export const OurStory = () => {
         <footer className="flex justify-between items-center text-sm md:text-base px-4 lg:px-0 xl:px-10 bg-neutral-800 h-auto w-full py-6 text-stone-300">
           <div className="justify-start basis-1/2 pl-2 md:pl-8 grow flex">
             <img
-              src="/assets/logo-black.png"
+              src="/assets/logo-balck-transp.png"
               alt="dark-log"
               className="md:w-80 w-52"
               loading="lazy"

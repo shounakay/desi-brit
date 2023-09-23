@@ -83,7 +83,7 @@ export const DesiBrit = () => {
             </div>
             <div className="basis-1/2 grow flex justify-center 2xl:justify-end shrink-0 pr-8">
               <img
-                src="/assets/desi-brit-new.png"
+                src="/assets/desi-brit-new-transp.png"
                 alt="desi-brit-logo"
                 className="w-[100%] sm:w-[80%] lg:w-[45%] xl:w-[60%] h-36 md:h-48"
                 loading="lazy"
@@ -177,7 +177,7 @@ export const DesiBrit = () => {
         <footer className="flex justify-between items-center text-sm md:text-base px-4 lg:px-0 xl:px-10 bg-neutral-800 h-auto w-full py-6 text-stone-300">
           <div className="justify-start basis-1/2 pl-2 md:pl-8 grow flex">
             <img
-              src="/assets/logo-black.png"
+              src="/assets/logo-balck-transp.png"
               alt="dark-log"
               className="md:w-80 w-52"
               loading="lazy"
