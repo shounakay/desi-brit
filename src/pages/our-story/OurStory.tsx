@@ -17,7 +17,7 @@ export const OurStory = () => {
               />
             </div>
           </nav>
-          <nav className="lg:flex hidden justify-between  items-center h-24 w-full text-white px-16">
+          <nav className="lg:flex hidden justify-between  items-center h-24 w-full text-white pl-8 pr-14">
             <div className="flex flex-row gap-16 2xl:text-xl xl:text-base font-semibold">
               <NavLink to="/">DESI BRIT WEDDING</NavLink>
               <NavLink
@@ -30,7 +30,7 @@ export const OurStory = () => {
             </div>
             <div>
               <Link to="/rsvp">
-                <button className="border-2 font-semibold hover:border-stone-100 rounded-sm py-4 px-12 bg-paradiso-400 hover:bg-paradiso-200 hover:text-white text-white">
+                <button className="border-2 font-semibold hover:border-stone-100 rounded-sm py-2 px-8 bg-paradiso-400 hover:bg-paradiso-200 hover:text-white text-white">
                   R S V P
                 </button>
               </Link>
@@ -66,7 +66,7 @@ export const OurStory = () => {
           />
         </section>
         <footer className="flex justify-between items-center text-sm md:text-base pl-2 pr-4 lg:px-0 xl:pl-2 xl:pr-10 bg-neutral-800 h-auto w-full py-6 text-stone-300">
-          <div className="justify-start basis-1/2 pl-0 md:pl-8 grow flex">
+          <div className="justify-start basis-1/2 pl-0 md:pl-8 xl:pl-2 grow flex">
             <img
               src="/assets/logo-balck-transp.png"
               alt="dark-log"

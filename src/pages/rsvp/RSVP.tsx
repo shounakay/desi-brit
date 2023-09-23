@@ -225,7 +225,7 @@ export const RSVP = () => {
           </div>
         </section>
         <footer className="flex justify-between items-center text-sm md:text-base pl-2 pr-4 lg:px-0 xl:pl-2 xl:pr-10 bg-neutral-800 h-auto w-full py-6 text-stone-300">
-          <div className="justify-start basis-1/2 pl-0 md:pl-8 grow flex">
+          <div className="justify-start basis-1/2 pl-0 md:pl-8 xl:pl-2 grow flex">
             <img
               src="/assets/logo-balck-transp.png"
               alt="dark-log"

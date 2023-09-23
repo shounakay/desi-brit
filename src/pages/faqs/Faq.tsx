@@ -26,8 +26,8 @@ export const Faq = () => {
               />
             </div>
           </nav>
-          <nav className="lg:flex hidden bg-tango-700 justify-between items-center h-20 w-full text-white px-16">
-            <div className="flex flex-row gap-16 text-xl font-semibold">
+          <nav className="lg:flex hidden bg-tango-700 justify-between items-center h-20 w-full text-white pl-8 pr-16">
+            <div className="flex flex-row gap-16 text-base font-semibold">
               <NavLink to="/">DESI BRIT WEDDING</NavLink>
               <NavLink to="/our-story">OUR STORY</NavLink>
               <NavLink
@@ -42,7 +42,7 @@ export const Faq = () => {
             <div>
               <button
                 onClick={() => navigate("/rsvp")}
-                className=" border-2 hover:border-stone-700 rounded-sm py-3 px-8 bg-rust-200 hover:bg-tango-400 hover:text-white text-stone-800"
+                className=" border-2 hover:border-stone-700 rounded-sm py-2 px-8 bg-rust-200 hover:bg-tango-400 hover:text-white text-stone-800"
               >
                 R S V P
               </button>
@@ -56,7 +56,7 @@ export const Faq = () => {
               <h4>FAQs EDITION</h4>
             </div>
           </div>
-          <div className="flex justify-center text-xl gap-8 lg:gap-32 flex-wrap text-md font-medium">
+          <div className="flex justify-center text-xl xl:gap-16 2xl:gap-32 gap-8 lg:gap-32 flex-wrap text-md font-medium">
             <div
               onClick={() => setTabIndex(0)}
               className={`px-1 hover:cursor-pointer hover:-translate-y-1 transition-transform duration-150 ease-out ${
@@ -130,7 +130,7 @@ export const Faq = () => {
           </div>
         </section>
         <footer className="flex justify-between items-center text-sm md:text-base pl-2 pr-4 lg:px-0 xl:pl-2 xl:pr-10 bg-neutral-800 h-auto w-full py-6 text-stone-300">
-          <div className="justify-start basis-1/2 pl-0 md:pl-8 grow flex">
+          <div className="justify-start basis-1/2 pl-0 md:pl-8 xl:pl-2 grow flex">
             <img
               src="/assets/logo-balck-transp.png"
               alt="dark-log"
