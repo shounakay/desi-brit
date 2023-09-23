@@ -66,15 +66,15 @@ export const OurStory = () => {
           />
         </section>
         <footer className="flex justify-between items-center text-sm md:text-base px-4 lg:px-0 xl:px-10 bg-neutral-800 h-auto w-full py-6 text-stone-300">
-          <div className="justify-start basis-1/2 pl-8 grow hidden lg:block">
+          <div className="justify-start basis-1/2 pl-2 md:pl-8 grow flex">
             <img
               src="/assets/logo-black.png"
               alt="dark-log"
-              className="w-80"
+              className="md:w-80 w-52"
               loading="lazy"
             />
           </div>
-          <div className="flex justify-start lg:justify-end xl:justify-center grow">
+          <div className="hidden lg:flex justify-start lg:justify-end xl:justify-center grow">
             <div className="flex flex-col gap-2 py-4">
               <h5>Email us at:</h5>
               <div className="text-neutral-300 underline">
