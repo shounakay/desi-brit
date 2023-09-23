@@ -64,7 +64,7 @@ export const qna = [
       {
         q: "Do you have a wedding hashtag ?",
         a: [
-          `<p>We don’t have a wedding hashtag but over the course of our planning we have been referring to it as thedesibritwedding :)</p>`,
+          `<p>We don’t have a wedding hashtag but over the course of our wedding planning we have been referring to it as thedesibritwedding :)</p>`,
           `<p>For those of you who don't know, desi is a word used to describe someone from India and is derived from the sanskrit word des meaning land, country ;)</p>`,
         ],
       },
