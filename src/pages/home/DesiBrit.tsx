@@ -93,7 +93,7 @@ export const DesiBrit = () => {
             </div>
           </article>
           <p className="md:text-xl text-[16px] text-left font-medium tracking-tighter xl:tracking-wide lg:pl-20 lg:pr-16">
-            We are soo excited! Get ready for some fun shenanigan where the
+            We are soo excited! Get ready for some fun shenanigans where the
             vibrant hues of Indian sarees meet the elegance of British suits and
             the Indian traditions meet the British charm. Your love and
             blessings mean the world to us and we cannot wait to share this
