@@ -47,7 +47,7 @@ export const DesiBrit = () => {
                   <NavLink to="/faqs">FAQs</NavLink>
                 </li>
               </div>
-              <div className="sm:flex hidden basis-[55%] 2xl:basis-[40%] h-24 xl:justify-start 2xl:justify-center sm:ml-36 md:ml-64 lg:ml-[360px] xl:ml-16 2xl:pl-0 2xl:pr-12 pl-0 ml-32 2xl:ml-20 2xl:mr-96 items-end text-white font-adlery text-center text-[40px] animate-dropDownName self-center">
+              <div className="sm:flex hidden basis-[55%] 2xl:basis-[40%] h-24 xl:justify-start 2xl:justify-center sm:ml-36 md:ml-56 lg:ml-[360px] xl:ml-16 2xl:pl-0 2xl:pr-12 pl-0 ml-32 2xl:ml-20 2xl:mr-96 items-end text-white font-adlery text-center text-[40px] animate-dropDownName self-center">
                 <div className="-rotate-12 text-tango-500">Nupoor</div>
                 <div className="-rotate-12 text-tango-500">& Andrew</div>
               </div>

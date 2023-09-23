@@ -98,7 +98,7 @@ export const RSVP = () => {
               make it by <strong>November 30th.</strong>
             </div>
           </div>
-          <div className="flex flex-col gap-5 justify-start w-9/12 h-auto px-4 md:items-center md:pl-24">
+          <div className="flex flex-col gap-5 justify-start w-9/12 h-auto px-4 md:items-center md:pl-0">
             <div className="w-44">
               <div className="w-44">Name</div>
               <TextField
