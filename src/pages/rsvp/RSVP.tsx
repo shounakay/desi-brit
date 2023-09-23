@@ -213,7 +213,7 @@ export const RSVP = () => {
               />
             </div>
           </div>
-          <div className="self-center flex flex-col md:items-center md:w-full md:pr-[350px]">
+          <div className="self-center flex flex-col md:items-center md:w-full md:pr-[260px] 2xl:pr-[350px]">
             <button
               onClick={() => (isBtnDisabled ? null : handleSubmit())}
               className={`border-2 border-stone-800 rounded-sm p-2 w-44 hover:bg-slate-400 ${
