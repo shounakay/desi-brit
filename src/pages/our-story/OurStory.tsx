@@ -70,7 +70,7 @@ export const OurStory = () => {
             <img
               src="/assets/logo-balck-transp.png"
               alt="dark-log"
-              className="md:w-80 w-52"
+              className="md:w-80 w-40"
               loading="lazy"
             />
           </div>
