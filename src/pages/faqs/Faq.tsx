@@ -131,7 +131,7 @@ export const Faq = () => {
             ))}
           </div>
         </section>
-        <footer className="flex justify-between items-center text-sm md:text-base pl-2 pr-4 lg:px-0 xl:pl-2 xl:pr-10 bg-neutral-800 h-auto w-full py-6 text-stone-300">
+        <footer className="flex justify-between items-center text-sm md:text-base pl-2 pr-8 lg:px-0 xl:pl-2 xl:pr-10 bg-neutral-800 h-auto w-full py-6 text-stone-300">
           <div className="justify-start basis-1/2 pl-0 md:pl-8 xl:pl-2 grow flex">
             <img
               src="/assets/logo-balck-transp.png"
@@ -148,7 +148,7 @@ export const Faq = () => {
               </div>
             </div>
           </div>
-          <div className="flex flex-col sm:flex-row gap-2 lg:gap-6">
+          <div className="flex flex-col sm:flex-row gap-2 md:gap-7 lg:gap-6">
             <div className="flex justify-end grow">
               <div className="flex flex-col gap-2 underline text-neutral-300">
                 <Link to="/">Desi Brit Wedding</Link>

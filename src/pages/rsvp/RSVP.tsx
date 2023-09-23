@@ -156,7 +156,7 @@ export const RSVP = () => {
                 variant="outlined"
               />
             </div>
-            <div className="lg:w-[620px] w-[200px] md:pl-[220px]">
+            <div className="lg:w-[620px] w-[200px] md:w-[300px] md:pl-14 lg:pl-[220px]">
               <div>Do you have any dietary restrictions or allergies ?</div>
               <TextField
                 id="outlined-basic"
@@ -199,7 +199,7 @@ export const RSVP = () => {
                 label="No"
               />
             </div>
-            <div className="w-80 md:pl-[70px] pl-1">
+            <div className="w-80 md:pl-[65px] pl-1">
               <div>Any questions ?</div>
               <TextField
                 id="outlined-basic"
@@ -215,7 +215,7 @@ export const RSVP = () => {
               />
             </div>
           </div>
-          <div className="self-center flex flex-col md:items-center md:w-full md:pr-[260px] 2xl:pr-[350px]">
+          <div className="self-center flex flex-col md:items-center md:w-full md:pr-[150px] lg:pr-[260px] 2xl:pr-[350px]">
             <button
               onClick={() => (isBtnDisabled ? null : handleSubmit())}
               className={`border-2 border-stone-800 rounded-sm p-2 w-44 hover:bg-slate-400 ${
@@ -226,7 +226,7 @@ export const RSVP = () => {
             </button>
           </div>
         </section>
-        <footer className="flex justify-between items-center text-sm md:text-base pl-2 pr-4 lg:px-0 xl:pl-2 xl:pr-10 bg-neutral-800 h-auto w-full py-6 text-stone-300">
+        <footer className="flex justify-between items-center text-sm md:text-base pl-2 pr-8 lg:px-0 xl:pl-2 xl:pr-10 bg-neutral-800 h-auto w-full py-6 text-stone-300">
           <div className="justify-start basis-1/2 pl-0 md:pl-8 xl:pl-2 grow flex">
             <img
               src="/assets/logo-balck-transp.png"
@@ -243,7 +243,7 @@ export const RSVP = () => {
               </div>
             </div>
           </div>
-          <div className="flex flex-col sm:flex-row gap-2 lg:gap-6">
+          <div className="flex flex-col sm:flex-row gap-2 md:gap-7 lg:gap-6">
             <div className="flex justify-end grow">
               <div className="flex flex-col gap-2 underline text-neutral-300">
                 <Link to="/">Desi Brit Wedding</Link>
