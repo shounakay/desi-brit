@@ -48,6 +48,7 @@ export const RSVP = () => {
         phone,
         email,
         diet,
+        accompanied_by: joinee,
         isAttending,
         comments,
       });
