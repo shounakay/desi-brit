@@ -96,7 +96,7 @@ export const RSVP = () => {
             </h6>
             <div>
               We're so excited to see you at our big day! Let us know if you can
-              make it by <strong>November 30th.</strong>
+              make it by <strong>January 15th.</strong>
             </div>
           </div>
           <div className="flex flex-col gap-5 justify-start w-9/12 h-auto px-4 md:items-center md:pl-0">

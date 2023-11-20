@@ -142,7 +142,7 @@ export const qna = [
       {
         q: "By when should I RSVP ?",
         a: [
-          "We request our guests to kindly submit their RSVPs by November 30th. If you need more time, please let us know in advance.",
+          "We request our guests to kindly submit their RSVPs by January 15th. If you need more time, please let us know in advance.",
         ],
       },
     ],
