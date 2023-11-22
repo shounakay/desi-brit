@@ -92,7 +92,6 @@ export const qna = [
           `<img src=/assets/dress-code-2.png alt=dress />`,
           `<p style='font-weight: bold; font-size: 16px'>Indian Wedding</p>`,
           `<p>We would love our guests to indulge in the Indian culture and wear something traditional. Women can wear sarees or lehengas and men can wear sherwanis or kurtas.</p>`,
-          `<p>Don’t know where to get an Indian outfit? Get in touch with us before Oct 26th as we might be able to help you with that.</p>`,
           `<p>We understand if you don’t want to buy something that you will not wear again so if you don’t want to wear Indian, we recommend wearing some vibrant colours and a flowy dress as it will still give lehenga and match the vibe of the day 🙂</p>`,
           `<img src=/assets/dress-code-3.png />`,
           `<p style='font-weight: bold; font-size: 16px'>English Ceremony</p>`,
